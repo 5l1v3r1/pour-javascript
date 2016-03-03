@@ -1,0 +1,13 @@
+{
+  "name": "Pour.Node.Library.Test",
+  "version": "0.0.0",
+  "description": "Pour.Node.Library.Test",
+  "main": "app.js",
+  "author": {
+    "name": "mert",
+    "email": ""
+  },
+  "dependencies": {
+    "crypto-js": "3.1.6"
+  }
+}
