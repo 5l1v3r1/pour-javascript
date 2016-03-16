@@ -137,22 +137,27 @@ module.exports = {
     
     critical: function (message) {
         createLogMessage(_account, _key, _table, message, 0);
+        console.error(message);
     },
     
     error: function (message) {
         createLogMessage(_account, _key, _table, message, 1);
+        console.error(message);
     },
     
     warning: function (message) {
         createLogMessage(_account, _key, _table, message, 2);
+        console.warn(message);
     },
     
     info: function (message) {
         createLogMessage(_account, _key, _table, message, 3);
+        console.info(message);
     },
     
     verbose: function (message) {
         createLogMessage(_account, _key, _table, message, 4);
+        console.trace(message);
     },
     
     setContext: function (name, value) {

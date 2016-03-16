@@ -1,13 +1,12 @@
 {
-  "name": "Pour.Node.Library.Test",
-  "version": "0.0.0",
+  "name": "pour-azure-logger-test",
+  "version": "0.0.1",
   "description": "Pour.Node.Library.Test",
   "main": "app.js",
-  "author": {
-    "name": "mert",
-    "email": ""
-  },
+  "author": "Pour <info@trypour.com> (http://www.trypour.com)",
   "dependencies": {
-    "crypto-js": "3.1.6"
-  }
+    "pour-azure-logger": "0.1.13",
+    "prompt": "1.0.0"
+  },
+  "license": "MIT"
 }

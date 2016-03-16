@@ -1,6 +1,6 @@
 {
   "name": "pour-azure-logger",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Pour node.js module is for simple and secure Azure log management.",
   "main": "index.js",
   "author": "Pour <info@trypour.com> (http://www.trypour.com)",

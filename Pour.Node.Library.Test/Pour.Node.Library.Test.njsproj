@@ -30,9 +30,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Pour.Client.Node.Library\index.js">
-      <Link>index.js</Link>
-    </Compile>
     <Compile Include="app.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />

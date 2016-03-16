@@ -47,9 +47,9 @@ logger.setContext('RoleId', 'read-some-environment-value i.e. process.env.RoleId
 
 Start logging.
 ```javascript 
-logger.critical("A critical message");
-logger.error("An error message");
-logger.warning("A warning message");
-logger.info("An info message");
-logger.verbose("A verbose message");
+logger.critical('A critical message');
+logger.error('An error message');
+logger.warning('A warning message');
+logger.info('An info message');
+logger.verbose('A verbose message');
 ```

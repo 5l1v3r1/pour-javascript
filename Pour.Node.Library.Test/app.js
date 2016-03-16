@@ -1,4 +1,11 @@
-﻿console.log('Hello world');
+﻿var prompt = require('prompt');
+var logger = require('pour-azure-logger');
 
-var l = require("../Pour.Client.Node.Library/index.js");
-l.connect('28a96c5f85ee2e2c912f9d5fc97818075loFm05qhhyDXj9OfzZBpBllEFzNU4Dx', function () { l.info('From npm v12'); });
+prompt.start();
+prompt.get(['token'], function (err, result) {
+    console.log('Testing token: "' + result.token + '"');
+    logger.connect(result.token, function () {
+        logger.info('From npm v13');
+    });
+    console.log('Complete');
+});
