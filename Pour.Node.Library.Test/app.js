@@ -5,7 +5,7 @@ prompt.start();
 prompt.get(['token'], function (err, result) {
     console.log('Testing token: "' + result.token + '"');
     logger.connect(result.token, function () {
-        logger.info('From npm v13');
+        logger.info('From npm v14');
     });
     console.log('Complete');
 });
