@@ -157,7 +157,7 @@ module.exports = {
     
     verbose: function (message) {
         createLogMessage(_account, _key, _table, message, 4);
-        console.trace(message);
+        console.info(message);
     },
     
     setContext: function (name, value) {
